@@ -26,7 +26,7 @@ namespace IterationStatements
             //{
             // Increment num by 1
 
-            num++;
+     
 
             // Then add num to the collection - numbers
             // Hint: reference num inside of the Add method's parentheses
@@ -51,12 +51,13 @@ namespace IterationStatements
             //HINT: copy how this was done in the do while loop
 
             //}
-     
+
+            while (num < 200) 
             {
                 num++;
 
                 numbers.Add(num);
-            } while (num < 200);
+            }
 
             // This is to show the user that the numbers will start increasing on the console
 
